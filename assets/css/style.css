@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body{
+.h1{
+    padding-top: 50px;
+    padding-bottom: .2px;
+    font-family: 'Amatic SC', cursive;
+    color: #fff;
+    background-color: #010125;
+    text-align: center;
+    font-size: 50px;
+}
+.p-main{
+    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    color: #fff;
+    background-color: #010125;
+    text-align: center;
+    font-size: 40px;
+}
+.main{
     height: 100vh;
     display: flex;
-    background-color: rgb(54, 189, 189);
+    background-color: #010125;
 }
 
 .memory-game{
@@ -62,4 +80,25 @@ body{
 
 .card.flip{
     transform: rotateY(180deg);
+}
+
+/* CSS HOW TO PLAY */
+#howToPlay{
+    font-family: 'Amatic SC', cursive;
+    color: #fff;
+    background-color: #010125;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: .2px;
+}
+
+.h2-howToPlay{
+    font-size: 40px;
+    
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 30px;
 }
